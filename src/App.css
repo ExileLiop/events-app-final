@@ -1,0 +1,84 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background-color: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+  margin: 5px 0;
+}
+
+.info-text {
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+.info-text b { color: #fff; }
+
+.register-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.heart-btn {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.view-btn {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: white;
+  padding: 8px;
+  flex-grow: 1;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.9rem;
+}
